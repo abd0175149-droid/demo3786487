@@ -11,7 +11,7 @@ services:
     container_name: demo-app
     restart: unless-stopped
     ports:
-      - "4021:4020"
+      - "4040:4020"
     volumes:
       # Persist storage (uploads, logs)
       - demo-storage:/var/www/html/storage
