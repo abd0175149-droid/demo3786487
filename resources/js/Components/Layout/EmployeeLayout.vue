@@ -196,7 +196,7 @@ const handleClickOutside = (e) => {
 const toggleTheme = () => {
     isDark.value = !isDark.value;
     document.documentElement.classList.toggle('dark', isDark.value);
-    localStorage.setItem('nusuk-theme', isDark.value ? 'dark' : 'light');
+    localStorage.setItem('demo-theme', isDark.value ? 'dark' : 'light');
 };
 
 onMounted(() => {

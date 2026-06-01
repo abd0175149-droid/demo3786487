@@ -15,7 +15,7 @@ if (csrfToken) {
 }
 
 createInertiaApp({
-    title: (title) => title ? `${title} - NUSUK` : 'NUSUK',
+    title: (title) => title ? `${title} - DEMO` : 'DEMO',
     resolve: (name) =>
         resolvePageComponent(
             `./Pages/${name}.vue`,

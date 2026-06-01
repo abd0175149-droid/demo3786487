@@ -1,4 +1,4 @@
-# Coding Conventions - NUSUK System
+# Coding Conventions - DEMO System
 
 ---
 
@@ -66,7 +66,7 @@
 - السعودية: `+966` + 9 أرقام تبدأ بـ 5
 
 ## 8. التصميم (Theme)
-- **Dark/Light Mode**: يُحفظ في `localStorage` بمفتاح `nusuk-theme`
+- **Dark/Light Mode**: يُحفظ في `localStorage` بمفتاح `demo-theme`
 - **CSS Overrides**: ملف `app.css` يحتوي dark mode عالمي
 - **RTL**: التطبيق بالكامل RTL (اتجاه من اليمين لليسار)
 - **ألوان Gold**: التدرج الأساسي للعلامة التجارية

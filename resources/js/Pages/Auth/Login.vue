@@ -11,7 +11,7 @@
                 <!-- Logo -->
                 <div class="text-center mb-8">
                     <div class="w-56 mx-auto mb-4">
-                        <img src="/images/logo-company.png?v=3"
+                        <img src="/images/demo-logo.png?v=3"
                              alt="نظام إدارة الأعمال"
                              class="w-full object-contain" />
                     </div>

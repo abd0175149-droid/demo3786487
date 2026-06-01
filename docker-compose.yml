@@ -1,10 +1,10 @@
 # ============================================================
-# NUSKJO — Docker Compose (Production)
-# Port: 4020 → Cloudflare Tunnel → nuskjo.grade.sbs
+# demo — Docker Compose (Production)
+# Port: 4020 → Cloudflare Tunnel → demo.grade.sbs
 # ============================================================
 
 services:
-  nuskjo-app:
+  demo-app:
     build:
       context: .
       dockerfile: Dockerfile

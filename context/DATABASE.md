@@ -1,4 +1,4 @@
-# Database Schema - NUSUK System
+# Database Schema - DEMO System
 ## PostgreSQL 16 | All monetary fields use DECIMAL to prevent floating-point loss
 
 ---

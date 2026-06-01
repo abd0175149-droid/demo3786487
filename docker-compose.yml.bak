@@ -1,25 +1,25 @@
 # ============================================================
-# NUSUK — Docker Compose (Production)
-# Port: 4010 → Cloudflare Tunnel → nusuk.grade.sbs
+# DEMO — Docker Compose (Production)
+# Port: 4010 → Cloudflare Tunnel → DEMO.grade.sbs
 # ============================================================
 
 services:
-  nusuk-app:
+  demo-app:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: nusuk-app
+    container_name: demo-app
     restart: unless-stopped
     ports:
       - "4010:4010"
     volumes:
       # Persist storage (uploads, logs, and sqlite database)
-      - nusuk-storage:/var/www/html/storage
+      - DEMO-storage:/var/www/html/storage
     environment:
-      - APP_NAME=NUSUK
+      - APP_NAME=DEMO
       - APP_ENV=production
       - APP_DEBUG=false
-      - APP_URL=https://nusuk.grade.sbs
+      - APP_URL=https://DEMO.grade.sbs
       - APP_LOCALE=ar
       - LOG_CHANNEL=stack
       - LOG_LEVEL=error
@@ -38,5 +38,5 @@ services:
       start_period: 30s
 
 volumes:
-  nusuk-storage:
+  DEMO-storage:
     driver: local

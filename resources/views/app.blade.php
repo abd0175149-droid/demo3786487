@@ -9,7 +9,7 @@
     {{-- منع وميض الثيم: يُطبّق قبل أي رسم --}}
     <script>
         (function(){
-            var t = localStorage.getItem('nusuk-theme');
+            var t = localStorage.getItem('demo-theme');
             if (t === 'dark') document.documentElement.classList.add('dark');
             else document.documentElement.classList.remove('dark');
         })();

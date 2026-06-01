@@ -1,5 +1,5 @@
 # ============================================================
-# NUSUK — Production Dockerfile
+# DEMO — Production Dockerfile
 # Laravel 11 + Vue 3 + Inertia + SQLite
 # ============================================================
 

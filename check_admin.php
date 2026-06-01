@@ -4,7 +4,7 @@ $app = require_once __DIR__.'/bootstrap/app.php';
 $kernel = $app->make(Illuminate\Contracts\Console\Kernel::class);
 $kernel->bootstrap();
 
-$user = \App\Models\User::where('email', 'admin@nusuk-jo.com')->first();
+$user = \App\Models\User::where('email', 'admin@demo.com')->first();
 if ($user) {
     echo "User found: " . $user->name . " | Role ID: " . $user->role_id . "\n";
     if ($user->role) {

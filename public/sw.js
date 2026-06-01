@@ -1,4 +1,4 @@
-const CACHE_NAME = 'nusuk-v1';
+const CACHE_NAME = 'demo-v1';
 const PRECACHE_URLS = ['/', '/manifest.json'];
 
 self.addEventListener('install', (event) => {

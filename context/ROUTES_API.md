@@ -1,4 +1,4 @@
-# Routes & API - NUSUK System
+# Routes & API - DEMO System
 ## Inertia.js Routes (web.php)
 
 ---

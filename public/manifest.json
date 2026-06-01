@@ -1,6 +1,6 @@
 {
-    "name": "NUSUK",
-    "short_name": "NUSUK",
+    "name": "DEMO",
+    "short_name": "DEMO",
     "description": "نظام إدارة العمليات المالية والتشغيلية",
     "start_url": "/",
     "display": "standalone",

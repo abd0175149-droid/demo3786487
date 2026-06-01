@@ -1,4 +1,4 @@
-# خطة العمل التنفيذية - NUSUK System
+# خطة العمل التنفيذية - DEMO System
 # Implementation Master Plan
 
 > **المدة**: 8-10 أسابيع | **المنهجية**: Agile/Scrum | **6 Sprints**
@@ -355,7 +355,7 @@ class InvoiceService {
 ### المهمة 6.2: Cloudflare Tunnel
 - ربط السيرفر بـ domain خاص
 - تفعيل HTTPS (إلزامي لـ PWA + FCM)
-- `cloudflared tunnel create nusuk`
+- `cloudflared tunnel create DEMO`
 
 ### المهمة 6.3: الفحص الشامل (QA)
 | نوع الفحص | التفاصيل |
@@ -377,7 +377,7 @@ class InvoiceService {
 
 ```mermaid
 gantt
-    title NUSUK Implementation Timeline
+    title DEMO Implementation Timeline
     dateFormat  YYYY-MM-DD
     section Sprint 1
     تنصيب المشروع           :s1a, 2026-05-19, 2d

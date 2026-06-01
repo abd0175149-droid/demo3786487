@@ -24,7 +24,7 @@ messaging.onBackgroundMessage((payload) => {
     const notificationTitle = payload.notification.title || 'إشعار جديد';
     const notificationOptions = {
         body: payload.notification.body,
-        icon: '/images/logo-dark.png',
+        icon: '/images/demo-logo.png',
         badge: '/icons/icon-192.png',
         data: payload.data, // Contains URL to open on click
         dir: 'rtl',

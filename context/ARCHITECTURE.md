@@ -1,9 +1,9 @@
-# Architecture - NUSUK System
+# Architecture - DEMO System
 
 ## هيكلية المجلدات (Laravel 11 + Inertia + Vue 3)
 
 ```
-NUSUK/
+DEMO/
 ├── app/
 │   ├── Enums/              # Status enums (ApprovalStatus, BillingStatus, etc.)
 │   ├── Events/             # Laravel events (TransferApproved, InvoiceApproved, etc.)
@@ -60,7 +60,7 @@ NUSUK/
 │   ├── sw.js               # Service Worker
 │   └── icons/              # PWA icons
 ├── config/
-│   └── nusuk.php           # App-specific config (currencies, number formats)
+│   └── DEMO.php           # App-specific config (currencies, number formats)
 └── lang/
     ├── ar/                 # Arabic translations
     └── en/                 # English translations

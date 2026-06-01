@@ -281,7 +281,7 @@ const sidebarNav = ref(null);
 // Save sidebar scroll before Inertia navigates away
 const removeBeforeListener = router.on('before', () => {
     if (sidebarNav.value) {
-        sessionStorage.setItem('nusuk-sidebar-scroll', String(sidebarNav.value.scrollTop));
+        sessionStorage.setItem('demo-sidebar-scroll', String(sidebarNav.value.scrollTop));
     }
 });
 
@@ -307,7 +307,7 @@ onMounted(() => {
     
     // Restore scroll position after DOM is ready
     nextTick(() => {
-        const saved = sessionStorage.getItem('nusuk-sidebar-scroll');
+        const saved = sessionStorage.getItem('demo-sidebar-scroll');
         if (sidebarNav.value && saved) {
             sidebarNav.value.scrollTop = parseInt(saved, 10);
         }
@@ -338,7 +338,7 @@ const isActive = (route) => {
 const toggleTheme = () => {
     isDark.value = !isDark.value;
     document.documentElement.classList.toggle('dark');
-    localStorage.setItem('nusuk-theme', isDark.value ? 'dark' : 'light');
+    localStorage.setItem('demo-theme', isDark.value ? 'dark' : 'light');
 };
 
 const menuGroups = [
